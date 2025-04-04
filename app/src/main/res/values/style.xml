@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CicleImage">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CarouselImageCorner">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="CirclePopular">
+        <item name="cornerSizeTopLeft">12%</item>
+        <item name="cornerSizeTopRight">12%</item>
+    </style>
+</resources>

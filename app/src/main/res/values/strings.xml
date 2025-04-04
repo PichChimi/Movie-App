@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--string onboard-->
+    <string name="TitleOnboardV1">The biggest international and local film streaming</string>
+    <string name="DescriptionOnboardV1">Leorm Finance is the vibrant initiative of a team of young professional entrepreneurs with a solid background in the financial sector. We have joined forces and expertise to create a platform that redefines the standards of fairness and efficiency.</string>
+
+    <string name="TitleOnboardV2">Offers ad-free viewing of high quality</string>
+    <string name="DescriptionOnboardV2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+
+    <string name="TitleOnboardV3">Our service brings together your favorite series</string>
+    <string name="DescriptionOnboardV3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content.</string>
+
+</resources>

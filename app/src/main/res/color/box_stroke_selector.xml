@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#92929D" android:state_focused="true"/>  <!-- Focused (Active) -->
+    <item android:color="#727272"/>  <!-- Default (Inactive) -->
+</selector>

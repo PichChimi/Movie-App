@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context=".LoginAndSignUpActivity">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/logoTv"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/live_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="CINEMAX"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoTv" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Enter your registered \nPhone Number to Sign Up"
+            android:textColor="#92929D"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <Button
+            android:id="@+id/btnSingUp"
+            android:layout_width="327dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/sky"
+            android:text="Sing Up"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/des" />
+
+        <LinearLayout
+            android:id="@+id/titleLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSingUp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I already have an account?"
+                android:textColor="#92929D"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Login"
+                android:textColor="@color/sky"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SignUpWith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleLogin">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#252836" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Or Sign up with"
+                android:textColor="#92929D"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#252836" />
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/loginGoogle"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/google"
+            app:layout_constraintEnd_toStartOf="@+id/loginApple"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SignUpWith" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/loginApple"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/apple"
+            app:layout_constraintEnd_toStartOf="@+id/loginFacebook"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/loginGoogle"
+            app:layout_constraintTop_toBottomOf="@+id/SignUpWith" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/loginFacebook"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/facebook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/loginApple"
+            app:layout_constraintTop_toBottomOf="@+id/SignUpWith" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
