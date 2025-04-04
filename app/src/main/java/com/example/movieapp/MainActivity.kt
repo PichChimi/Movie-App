@@ -41,4 +41,8 @@ class MainActivity : AppCompatActivity() {
             commitNow()
         }
     }
+
+    fun showData(){
+        
+    }
 }
