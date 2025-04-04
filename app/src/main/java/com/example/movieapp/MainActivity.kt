@@ -45,4 +45,8 @@ class MainActivity : AppCompatActivity() {
     fun showData(){
         
     }
+
+    fun showMessage(){
+
+    }
 }
